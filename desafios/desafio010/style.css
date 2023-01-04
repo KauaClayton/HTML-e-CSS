@@ -1,0 +1,173 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Android';
+    src: url(pacote-projeto-d010/fontes/idroid.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: rgb(124, 196, 124);
+}
+Header{
+    background-image: linear-gradient(to bottom, rgb(173, 255, 173), rgb(47, 82, 47) );
+    height: 203px;
+    width: 101.7%;
+    margin:-21px 0px 0px -9px;
+
+}
+
+header > h1{
+ 
+    color: white;
+    font: normal normal 2em 'monospace';
+    text-align: center;
+    padding:46px 1px 1px 1px;
+    
+}
+
+header > p{
+    color: white;
+    font: normal normal 1em 'sans-serif';
+    text-align: center;
+    margin:21px 1px 1px 1px;
+}
+
+nav{
+    height:30;
+    width:99.7%;
+    /*margin: 57px 12px 13px 1px;*/
+
+    padding: 47px 0px 0px 0px;
+}
+
+
+nav > span{
+   
+    
+    font:normal normal 1.2em 'sans-serif';
+    color:white;
+    margin: 0px 13px 0px 0px;
+    
+
+}
+
+nav > span:hover{
+    background-color:rgb(166, 228, 166);
+    color: green;
+
+
+}
+
+main{
+    height: 115%;
+    width: 70%;
+    text-align: center;
+    background-color: white;
+    margin: -19px 1px 1px 146px;
+    box-shadow: 1px -1px 5px 2px  black;
+
+}
+
+article > h1{
+    font-family: 'Android';
+    color: green;
+    font-size: 1.5em;
+    
+    
+}
+article > p{
+    text-align: justify;
+    text-indent: 1.4em;
+    margin: 1px 9px 2px 5px;
+}
+
+article > h2{
+    text-align: left;
+    text-indent: 1.4em;
+    font-family: 'Android';
+    color: green;
+    font-size: 1em;
+    background-image: linear-gradient(to right, rgb(173, 255, 173), white );
+}
+
+P > a{
+    color: rgb(1, 88, 1);
+    text-decoration: none;
+}
+P > a:hover{
+    color:green;
+    text-decoration: underline;
+}
+P > a:visited{
+    color: green;
+}
+
+Picture > img{
+   
+    width: 95%;
+    margin: 1px 1px 1px 1px;
+}
+
+article > iframe{
+    border: 28px rgb(47, 82, 47) solid;
+    padding: 1px 1px;
+    width: 92.2%;
+    height: 360px;
+
+}
+
+aside > h3{
+    height: 15%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    background-color: rgb(67, 165, 67);
+    margin: 1px 1px 1px 1px;
+    border-radius: 29px 30px 1px 1px;
+}
+
+aside > p{
+        text-align: justify;
+        text-indent: 1.4em;
+        margin: 1px 9px 2px 5px;
+}
+
+aside{
+    height: 530px;
+    width: 97%;
+    background-color: rgb(188, 229, 188);
+    margin:-1px 7px 9px 9px;
+    border-radius: 29px;
+}
+
+aside > a{
+    
+    height: 10px;
+    width: 10px;
+    text-align: justify;
+    color: black;
+    text-decoration: underline;
+    
+
+}
+
+aside > a:hover{
+    color: green;
+    text-decoration: underline;
+}
+
+section> p{
+        text-align: justify;
+        text-indent: 1.4em;
+        margin: 1px 9px 2px 5px;
+}
+footer{
+    width: 101.5%;
+    height: 25px;
+    text-align: center;
+    background-color: rgb(11, 61, 11);
+    color: white;
+    margin: 14px 1px 1px -8px;
+}
