@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas exercicio</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 600px;
+            border-collapse: collapse;
+        }
+        caption{
+            text-align: center;
+            font-size:1.4em;
+            font-weight: bolder;
+            margin-bottom: 5px;
+        }
+        td{
+            border: 1px solid black;
+            padding: 10px;
+
+        }
+        th{
+            border: 1px solid black;
+            font-weight: bolder;
+            padding: 10px;
+        }
+        .snome{
+            background-color: yellowgreen;
+        }
+        .ssex{
+            background-color: violet;
+        }
+        .sidade{
+            background-color: thistle;
+        }
+        .sprof{
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1>exercicio de Tabelas</h1>
+    <table>
+        <colgroup>
+            <col class="snome">
+            <col class="ssex" span="2">           
+            <col class="sprof">        
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Claudio</td>
+            <td>Masculino</td>
+            <td>28</td>
+            <td>Programador</td>
+        </tr>
+        <tr class="destaque">
+            <td>Gustavo</td>
+            <td>M</td>
+            <td>48</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Kauã</td>
+            <td>M</td>
+            <td>16</td>
+            <td>Desempregado</td>
+        </tr>
+        <tr>
+            <td>Marcos</td>
+            <td>M</td>
+            <td>65</td>
+            <td>Bartender</td>
+        </tr>
+        <tr>
+            <td>Sofia</td>
+            <td>F</td>
+            <td>23</td>
+            <td>Médica</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
