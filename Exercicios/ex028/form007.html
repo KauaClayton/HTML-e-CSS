@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post">
+        <p><label for="num">Numero:</label>
+        <input type="number" name="num" id="num" required min="1" max="50" oninput="soma.innerHTML = Number(num.value) + Number(inum.value)"></p>
+        <p><label for="inum">Numero:</label>
+        <input type="number" name="inum" id="inum" required min="1" max='50' oninput="soma.innerHTML = Number(num.value) + Number(inum.value)"></p>
+        <p><label for="isoma">Soma:</label>
+        <output id="soma">0</output></p>
+        <p>
+            <label for="ium">Número</label>
+            <input type="range" name="ium" id="ium" min="0" max="10" value="5" oninput="aval.innerHTML= Number(ium.value)">
+            <output id="aval" >5</output>
+
+        </p>
+        <p>
+            <label for="iano">Em que ano você nasceu?</label>
+            <input type="number" name="iano" id="iano" min="1910" max="2010" oninput="calcidade">
+            <output id="idad">0</output>
+        </p>
+        <p>
+            <label for="idade">Sua idade é:</label>
+            <output>0</output>
+        </p>
+
+    <p><input type="submit" value="enviar"> <input type="reset" value="apagar"></p>
+
+    </form>
+  
+    
+</body>
+</html>
