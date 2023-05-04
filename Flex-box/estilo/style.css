@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.container{
+    background-color: #ccc;
+    height: 500px;
+    display: flex;/*definiu como flex */
+    flex-direction: row/*Define a direção dos nossos itens por padrão é row(Linha) mas tem tbm ocolumn(coluna), tem o row e o column reverse(que trata da direita a esquerda ou de baixo pra cima*/;
+    flex-wrap:wrap; /*Define se vai ter quebra de linha ou nn, por padrão vem nowrap que nn permite a quebra de linha e o wrap que permite tbm existe o reverse dos dois casos*/
+  /*Serve para definir os dois de cima*/
+    justify-content: flex-start;/*Serve para fazer o alinhamento horizontal, o valor inicial é o flex-start(alinha os itens da esquerda pra direita e o flex-end(alinha da direita pra esquerda) ou center que aliha no centro ou space-beetween que cria um espaçamento entre os itens entre os itens ou o space-around(que espaça entre as bordas da caixa tbm em todos lados esquerdo e direiot
+     nn somente os itens)*/
+     align-items: stretch;/*Alinha verticalmente, valor padrão é stretch(faz os itens crescerem igualmente a caixa que eles estão), o flex-start alinha no topo e o flex-end na base e o center no centro e o baseline que fica baseado no conteudo de casa item pois ainda fica alinhado até conteúdos diferentes*/
+    align-content: space-between;/*Faz alinhamento vertical quando o conteúdo tiver uma quebra, flex-start em cima e flex-end embaixo, no center fica no centro, o space-between da espaçamento entre as linhas e o space-around e o stretch que faz os itens crescerem igualmente na vertical caso nn tenha altura*/
+    }
+
+article{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin: 5px;
+    width: 100px; /*Apesar de ter posto 50% se o valor no flex-wrap for nowrap ele nn chegará a 50% pois não é permitido em nenhum caso ter quebra de linha*/
+}
