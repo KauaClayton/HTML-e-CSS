@@ -6,7 +6,7 @@
     padding: 0px;
     font-size: 100%;
     box-sizing: border-box;
-    font-family: 'Opens Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 nav, ul{
@@ -120,6 +120,7 @@ header li:last-child{
 .Chotel h3{
     font-size: 2em;
     margin-bottom: 35px;
+    text-align: center;
 
 }
 
@@ -168,3 +169,5 @@ header li:last-child{
     }
     
 }
+
+/*caracteristicas*/
