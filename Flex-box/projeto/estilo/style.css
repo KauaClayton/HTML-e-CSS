@@ -25,7 +25,7 @@ a:hover{
 
 header{
     position: absolute;
-
+    background-color: #fff;
     width: 100vw;
     top: 0%;
     left: 0%;
@@ -65,4 +65,106 @@ header li:last-child{
         flex-direction: column;
     }
 
+}
+
+/*Hero*/
+
+.hero{
+    background-image: url('../img-hotel-paraiso/img/hero.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero h1{
+    font-size: 3.2em;
+    margin-bottom: 15px;
+}
+
+.hero h3{
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.hero .btn{
+    background-color: #fff;
+    border-radius: 4px;
+    color: #191c03;
+    padding: 20px 50px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width:700px) {
+    .hero h1{
+        font-size: 2em;
+    }
+    .hero h3{
+        font-size: 1.5em;
+    }
+    
+}
+/*Conheça o hotel*/
+
+.Chotel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+}
+
+.Chotel h3{
+    font-size: 2em;
+    margin-bottom: 35px;
+
+}
+
+.Chotel p{
+    max-width: 800px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.Chotel hr{
+    width: 200px;
+    height: 2px;
+    background-color: #191c03;
+    margin-bottom: 70px;
+    border: none;
+}
+
+.Chotel  .grid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Chotel .grid li{
+    height: 350px;
+    padding: 20px;
+    border-radius: 4px;
+    background-clip: content-box;
+    background-size: cover;
+    background-position: center;
+}
+
+.Chotel .grid li.small{
+    flex-basis: 40%;
+}
+
+.Chotel .grid li.large{
+    flex-basis: 60%;
+}
+
+@media  screen and (max-width:700px) {
+    .Chotel .grid li.small, .Chotel.grid li.large{
+        flex-basis: 100%;
+
+    }
+    
 }
