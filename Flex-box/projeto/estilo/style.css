@@ -26,7 +26,7 @@ a:hover{
 header{
     position: absolute;
     background-color: #fff;
-    width: 100vw;
+    width: 100%;
     top: 0%;
     left: 0%;
     display: flex;
@@ -171,3 +171,136 @@ header li:last-child{
 }
 
 /*caracteristicas*/
+
+.carac{
+    background-color: #191c03;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+}
+
+.carac h3{
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: 35px;
+    text-align: center;
+
+}
+
+.carac p{
+    color: #fff;
+    max-width: 800px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.carac hr{
+    background-color: #fff;
+    width: 200px;
+    height: 2px;
+  
+    margin-bottom: 70px;
+    border: none;
+}
+
+.carac .grid{
+    width: 100%;
+    display: flex;
+}
+
+.carac .grid li{
+    padding: 0px 30px;
+    text-align: center;
+}
+
+.carac .grid .material-symbols-outlined{
+    color: #c3c63b;
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+
+.carac .grid li h4{
+    font-size: 1.5em;
+    color: #c3c63b;
+    margin-bottom: 30px;
+}
+
+.carac .grid li p{
+    color: #fff;
+}
+
+@media screen and (max-width:700px) {
+    .carac .grid{
+        flex-direction: column;
+    }
+    
+}
+
+/*Newsletter*/
+
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+}
+
+.newsletter h3{
+    color: #c3c63b;
+    font-size: 2em;
+    margin-bottom: 35px;
+    text-align: center;
+
+}
+
+.newsletter p{
+    color: #c3c63b;
+    max-width: 800px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.newsletter hr{
+    background-color: #c3c63b;
+    width: 200px;
+    height: 2px;
+  
+    margin-bottom: 70px;
+    border: none;
+}
+
+.newsletter form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    max-width: 800px;
+}
+
+.newsletter input{
+    padding: 15px;
+    border: 1px solid #c3c63b;
+    border-radius: 4px;
+    margin-right: 15px;
+    flex: 1;
+
+}
+
+.newsletter button{
+    padding: 15px;
+    background-color: #c3c63b;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:700px) {
+    .newsletter input{
+        flex-basis: 100%;
+        margin-bottom: 15px;
+    }
+}
