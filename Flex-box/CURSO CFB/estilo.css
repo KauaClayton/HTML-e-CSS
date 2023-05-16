@@ -2,7 +2,7 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    color: #fff;
+    color: #000;
 }
 
 .item{
@@ -10,11 +10,14 @@ body{
    margin: 5px;
    background: #447;
    text-align: center;
-   font-size: 1em;
+   font-size: 0.8em;
    color:#fff;
 }
 
+.flexivel
+
 .container{
+    display: flex;
     max-width: 500px;
     margin: 0 auto;
     border:1px solid #000;
