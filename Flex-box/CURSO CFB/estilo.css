@@ -6,20 +6,27 @@ body{
 }
 
 .item{
-   padding: 5px;
-   margin: 5px;
+    padding: 5px;
+   margin: 5px; 
    background: #447;
    text-align: center;
    font-size: 0.8em;
    color:#fff;
+   height: 30px;
+   width: calc(33.333% - 20px);
+
 }
 
 .container{
     display: flex;
     max-width: 500px;
+    height: 400px;
     margin: 0 auto;
     border:1px solid #000;
-    flex-flow: column wrap;
+    flex-wrap: wrap;
+    align-items: center;
+
+
  
 }
 
