@@ -12,8 +12,8 @@ body{
    text-align: center;
    font-size: 0.8em;
    color:#fff;
-   height: 30px;
-   width: calc(33.333% - 20px);
+   width: 200px;
+
 
 }
 
@@ -23,10 +23,65 @@ body{
     height: 400px;
     margin: 0 auto;
     border:1px solid #000;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    justify-content: center;
     align-items: center;
 
 
  
 }
 
+.tam1{
+    flex-grow: 1;
+}
+
+.tam2{
+    flex-grow: 2;
+}
+
+.tam3{
+    flex-grow: 3;
+}
+
+.basea{
+    flex-basis: auto;
+}
+
+.base0{
+    flex-basis: 0;
+}
+
+.base1{
+    flex-basis: 1;
+}
+.base2{
+    flex-basis: 2;
+}
+
+.base3{
+    flex-basis: 3;
+}
+
+.or0{
+    order: 0;
+}
+
+.or1{
+    order: 1;
+}
+.or2{
+    order: 2;
+}
+.or3{
+    order: 3;
+}
+
+.sh0{
+    flex-shrink: 0;
+}
+.sh1{
+    flex-shrink: 1;
+}
+.sh2{
+    flex-shrink: 2;
+}
